@@ -1,0 +1,1153 @@
+<!doctype html>
+<html lang="pt-BR">
+  <link
+    rel="shortcut icon"
+    href="/assets/images/logo.ico"
+    type="image/x-icon"
+  />
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PLANALTO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="stylesheet" href="assets/style/premium.css" />
+    <link rel="stylesheet" href="assets/style/cinematic.css" />
+    <link rel="stylesheet" href="assets/style/plans-arena.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-content">
+        <div class="logo">
+          <img
+            src="assets/images/logo/logoSemFundo.png"
+            alt="ROX BJJ Planalto"
+            class="nav-logo-img"
+          />
+        </div>
+
+        <nav class="nav-links" id="desktopNav" aria-label="Navegação principal">
+          <a href="#home" class="nav-link">Início</a>
+          <a href="#sobre" class="nav-link">Sobre</a>
+          <a href="#horarios" class="nav-link">Horários</a>
+          <a href="#planos" class="nav-link">Planos</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+          <a href="#contato" class="nav-link">Contato</a>
+        </nav>
+
+        <div class="nav-right">
+          <a
+            href="https://wa.me/5584994243772?text=Olá!%20Quero%20agendar%20minha%20aula%20experimental."
+            target="_blank"
+            class="btn btn-outline nav-cta"
+            aria-label="Falar no WhatsApp"
+          >
+            <i class="bx bxl-whatsapp"></i> WhatsApp
+          </a>
+          <button
+            class="hamburger"
+            id="hamburgerBtn"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+          >
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ══════════════════════════════════════════
+         MENU MOBILE — drawer lateral
+         ══════════════════════════════════════════ -->
+    <div class="mobile-overlay" id="mobileOverlay" aria-hidden="true"></div>
+
+    <nav
+      class="mobile-menu"
+      id="mobileMenu"
+      aria-hidden="true"
+      aria-label="Menu mobile"
+    >
+      <div class="mobile-menu-header">
+        <div class="logo">
+          <img
+            src="assets/images/logo/logoSemFundo.png"
+            alt="ROX BJJ Planalto"
+            class="nav-logo-img"
+          />
+        </div>
+        <button class="mobile-close" id="mobileClose" aria-label="Fechar menu">
+          <i class="bx bx-x"></i>
+        </button>
+      </div>
+
+      <div class="mobile-nav-links">
+        <a href="#home" class="mobile-nav-link">Início</a>
+        <a href="#sobre" class="mobile-nav-link">Sobre</a>
+        <a href="#horarios" class="mobile-nav-link">Horários</a>
+        <a href="#planos" class="mobile-nav-link">Planos</a>
+        <a href="#faq" class="mobile-nav-link">FAQ</a>
+        <a href="#contato" class="mobile-nav-link">Contato</a>
+      </div>
+
+      <a
+        href="https://wa.me/5584994243772?text=Olá!%20Quero%20agendar%20minha%20aula%20experimental."
+        target="_blank"
+        class="btn btn-primary btn-block mobile-wpp-btn"
+      >
+        <i class="bx bxl-whatsapp"></i> Agendar Aula Experimental
+      </a>
+    </nav>
+
+    <!-- ══════════════════════════════════════════
+         HERO
+         ══════════════════════════════════════════ -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-noise"></div>
+      <div class="container hero-content">
+        <div class="hero-eyebrow reveal-blur">
+          Natal — RN &nbsp;/&nbsp; ROXBJJ Planalto
+        </div>
+        <h1 class="hero-headline reveal-blur delay-100">
+          Seu primeira experiência ao <br /><span class="hero-accent">
+            Jiu-Jitsu brasileiro</span
+          >
+        </h1>
+        <!-- <p class="subtitle reveal-blur delay-200">Disciplina. Técnica. Alta performance. Mais de 8 anos
+                transformando atletas e cidadãos dentro e fora do tatame.</p>  -->
+        <div class="hero-buttons reveal-blur delay-300">
+          <a
+            href="https://wa.me/5584994243772?text=Olá!%20Quero%20agendar%20minha%20aula%20experimental."
+            target="_blank"
+            class="btn btn-primary pulse-anim"
+          >
+            <i class="bx bxl-whatsapp"></i> Aula Experimental Grátis
+          </a>
+          <a href="#sobre" class="btn btn-ghost-hero">
+            Conheça a ROX <i class="bx bx-chevron-down"></i>
+          </a>
+        </div>
+        <div class="hero-stats reveal-blur delay-400">
+          <div class="hero-stat">
+            <span class="hero-stat-num">300<sup>+</sup></span
+            ><span class="hero-stat-label">Alunos</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">50<sup>+</sup></span
+            ><span class="hero-stat-label">Títulos</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">8<sup>+</sup></span
+            ><span class="hero-stat-label">Anos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         MANIFESTO — NOSSA ESSÊNCIA
+         ══════════════════════════════════════════ -->
+    <section class="manifesto-section section-padding bg-darker" id="sobre">
+      <div class="container">
+        <div class="manifesto-header reveal-blur">
+          <span class="section-eyebrow">ROX = Really On Excellence</span>
+          <h2 class="manifesto-headline">
+            Seja bem vindo.<br /><span class="text-red">ROXBJJ</span> planalto
+          </h2>
+        </div>
+
+        <div class="manifesto-grid">
+          <div class="manifesto-card card-featured reveal-blur delay-100">
+            <div class="mc-bg-text">ROX</div>
+            <div class="mc-inner">
+              <div class="mc-icon"><i class="bx bxs-flame"></i></div>
+              <h3>Treine com os melhores</h3>
+              <p>
+                Especializada em Jiu-jitsu e liderada pelos melhores faixa preta
+                da região, nossa equipe é formada por especialistas que treinam
+                com você em todas as aulas.
+              </p>
+              <div class="mc-tag">conheça os progessores</div>
+            </div>
+          </div>
+
+          <div class="manifesto-card reveal-blur delay-200">
+            <div class="mc-inner">
+              <div class="mc-icon"><i class="bx bx-shield-quarter"></i></div>
+              <h3>torne-se um campeão</h3>
+              <p>
+                Aproveite o máximo do treinamento pra aprimorar seu estilo de
+                vida, saúde e levar os desafios pra além dos tatames
+              </p>
+            </div>
+          </div>
+
+          <div class="manifesto-card card-highlight reveal-blur delay-400">
+            <div class="mc-inner">
+              <div class="mc-icon"><i class="bx bx-group"></i></div>
+              <h3>Sua nova academia</h3>
+              <p>
+                Nossa equipe criou o ambiente mais amigável e acolhedor que você
+                encontrará. Dê uma olhada, experimente hoje.
+              </p>
+              <a
+                href="https://wa.me/5584994243772?text=Olá!%20Quero%20agendar%20minha%20aula%20experimental."
+                target="_blank"
+                class="mc-cta"
+                >Fazer parte da equipe
+                <i class="bx bx-arrow-back bx-rotate-180"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         NOSSA HISTÓRIA
+         ══════════════════════════════════════════ -->
+    <section class="history section-padding bg-darker" id="historia">
+      <div class="container">
+        <div class="split-layout">
+          <div class="image-content reveal">
+            <div class="history-img-wrapper">
+              <img
+                src="assets/images/professor.jpeg"
+                alt="Professor Berg Medeiros — Faixa Preta 2º Grau ROX BJJ"
+                class="rounded-img shadow-red history-img"
+              />
+              <div class="history-img-badge">
+                <span class="history-badge-rank">Faixa Preta 2º Grau</span>
+                <span class="history-badge-name">Prof. Berg Medeiros</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-content reveal delay-200">
+            <h2>
+              conheça nossa equipe <span class="history-red">ROX BJJ</span>
+            </h2>
+
+            <div class="history-timeline">
+              <div class="history-timeline-item">
+                <div class="history-dot"></div>
+                <div class="history-entry">
+                  <span class="history-year">2008 — 2013</span>
+                  <p>
+                    A jornada do nosso líder, o Professor Berg Medeiros (Faixa
+                    Preta 2º Grau), começou através de um projeto social. Em
+                    2013, buscando evoluir, passou a treinar sob a tutela do
+                    professor Ronaldo Furacão, com quem forjou uma base técnica
+                    sólida até chegar à faixa marrom.
+                  </p>
+                </div>
+              </div>
+              <div class="history-timeline-item">
+                <div class="history-dot"></div>
+                <div class="history-entry">
+                  <span class="history-year">2018</span>
+                  <p>
+                    A vocação para ensinar falou mais alto e, ainda na faixa
+                    roxa, Berg iniciou sua trajetória como instrutor. Foram anos
+                    de luta, ministrando aulas em espaços improvisados nos
+                    fundos de academias de musculação.
+                  </p>
+                </div>
+              </div>
+              <div class="history-timeline-item">
+                <div class="history-dot"></div>
+                <div class="history-entry">
+                  <span class="history-year">2020</span>
+                  <p>
+                    O sonho do espaço próprio tomou forma, mas as adversidades
+                    da época forçaram o fechamento das portas. Foi preciso ter a
+                    humildade e a força mental de um verdadeiro lutador para
+                    recomeçar, mais uma vez.
+                  </p>
+                </div>
+              </div>
+              <div class="history-timeline-item history-timeline-last">
+                <div class="history-dot history-dot-active"></div>
+                <div class="history-entry">
+                  <span class="history-year">Hoje</span>
+                  <p>
+                    No Jiu-Jitsu, nós aprendemos a cair e levantar. Essa
+                    persistência inabalável deu origem ao nosso CT da ROXBJJ
+                    Planalto — ambiente amplo, tatame profissional,
+                    infraestrutura de ponta e clima totalmente familiar. Nosso
+                    propósito: qualidade de vida, defesa pessoal e cidadãos
+                    fortes dentro e fora do tatame.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         BASTIDORES DA ROX (Carrossel)
+         ══════════════════════════════════════════ -->
+    <section class="bastidores section-padding bg-darker" id="bastidores">
+      <div class="container text-center reveal">
+        <h2>Acompanhe <span class="history-red">ROXbjj planalto</span></h2>
+        <p class="plans-sub">
+          acompanhe nossos ultimos posts e siga nossas redes sociais para ficar
+          por dentros das utlimas noviddades.
+        </p>
+      </div>
+      <div class="carousel-wrapper reveal delay-100">
+        <div class="carousel-container">
+          <a
+            href="https://www.instagram.com/roxbjj_planalto/"
+            target="_blank"
+            class="carousel-item"
+          >
+            <img
+              src="assets/images/carrousel/instagram1.webp"
+              alt="Bastidores ROX 1"
+              loading="lazy"
+            />
+            <div class="carousel-overlay"><i class="bx bxl-instagram"></i></div>
+          </a>
+          <a
+            href="https://www.instagram.com/roxbjj_planalto/"
+            target="_blank"
+            class="carousel-item"
+          >
+            <img
+              src="assets/images/carrousel/instagram2.jpg"
+              alt="Bastidores ROX 2"
+              loading="lazy"
+            />
+            <div class="carousel-overlay"><i class="bx bxl-instagram"></i></div>
+          </a>
+          <a
+            href="https://www.instagram.com/roxbjj_planalto/"
+            target="_blank"
+            class="carousel-item"
+          >
+            <img
+              src="assets/images/carrousel/instagram3.jpg"
+              alt="Bastidores ROX 3"
+              loading="lazy"
+            />
+            <div class="carousel-overlay"><i class="bx bxl-instagram"></i></div>
+          </a>
+          <a
+            href="https://www.instagram.com/roxbjj_planalto/"
+            target="_blank"
+            class="carousel-item"
+          >
+            <img
+              src="assets/images/carrousel/instagram4.jpg"
+              alt="Bastidores ROX 4"
+              loading="lazy"
+            />
+            <div class="carousel-overlay"><i class="bx bxl-instagram"></i></div>
+          </a>
+          <a
+            href="https://www.instagram.com/roxbjj_planalto/"
+            target="_blank"
+            class="carousel-item"
+          >
+            <img
+              src="assets/images/carrousel/novoinstagram5.jpg"
+              alt="Bastidores ROX 5"
+              loading="lazy"
+            />
+            <div class="carousel-overlay"><i class="bx bxl-instagram"></i></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         PROVA SOCIAL PREMIUM — Métricas + Depoimentos
+         ══════════════════════════════════════════ -->
+    <section class="testimonials section-padding" id="depoimentos">
+      <div class="container">
+        <img
+          src="assets/images/logo/Gemini_Generated_Image_sgaaq3sgaaq3sgaa-removebg-preview(1).png"
+          class="testimonials-bg-logo"
+          alt=""
+          aria-hidden="true"
+        />
+
+        <div class="section-header reveal">
+          <div class="plans-header reveal-blur">
+            <span class="section-eyebrow">Compromisso com sua Evolução</span>
+            <h2 class="plans-headline">
+              depoimentos dos<span class="text-red"> clientes</span><br />
+            </h2>
+          </div>
+          <!-- <p class="subtitle">Histórias reais de pessoas que transformaram sua vida dentro e fora do tatame.</p> -->
+        </div>
+
+        <!-- Métricas animadas -->
+        <div class="metrics-grid reveal delay-100">
+          <div class="metric-item">
+            <div class="metric-value">
+              <span class="metric-number" data-target="0">0</span>
+              <span class="metric-suffix">+</span>
+            </div>
+            <p class="metric-label">Alunos Formados</p>
+          </div>
+          <div class="metric-item">
+            <div class="metric-value">
+              <span class="metric-number" data-target="0">0</span>
+              <span class="metric-suffix">+</span>
+            </div>
+            <p class="metric-label">Títulos Conquistados</p>
+          </div>
+          <div class="metric-item">
+            <div class="metric-value">
+              <span class="metric-number" data-target="0">0</span>
+              <span class="metric-suffix">+</span>
+            </div>
+            <p class="metric-label">Anos de Experiência</p>
+          </div>
+          <div class="metric-item">
+            <div class="metric-value">
+              <span class="metric-number" data-target="0">0</span>
+              <span class="metric-suffix">%</span>
+            </div>
+            <p class="metric-label">Avaliações Positivas</p>
+          </div>
+        </div>
+
+        <!-- Cards de depoimentos -->
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal delay-100">
+            <span class="testimonial-quote">"</span>
+            <p class="testimonial-text">
+              Professores de alta qualidade e profissionalismo, ambiente
+              familiar e acolhedor, o ambiente gerado na academia é leve
+              descontraído minha filha ama o jiu-jitsu.
+            </p>
+            <div class="testimonial-footer">
+              <img
+                src="assets/images/icon/unnamed.png"
+                alt="Ana Ercilia"
+                class="testimonial-avatar"
+                loading="lazy"
+              />
+              <div class="testimonial-info">
+                <strong class="testimonial-name">Ana Ercilia</strong>
+                <span class="testimonial-meta"> Avaliação 5 estrelas </span>
+              </div>
+              <div class="testimonial-achievement">
+                <i class="bx bx-star"></i>
+                <span>5 Estrelas</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal delay-400">
+            <span class="testimonial-quote">"</span>
+            <p class="testimonial-text">
+              Professor super atencioso e alunos receptivos. Tudo é organizado e
+              as aulas são muito bem explicadas, tive uma ótima experiência!
+            </p>
+            <div class="testimonial-footer">
+              <img
+                src="assets/images/icon/icon2.png"
+                alt="Ana Paula Lima"
+                class="testimonial-avatar"
+                loading="lazy"
+              />
+              <div class="testimonial-info">
+                <strong class="testimonial-name">Rafaela Macedo </strong>
+                <span class="testimonial-meta">Avaliação 5 estrelas</span>
+              </div>
+              <div class="testimonial-achievement">
+                <i class="bx bx-star"></i>
+                <span>5 Estrelas</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal delay-400">
+            <span class="testimonial-quote">"</span>
+            <p class="testimonial-text">
+              Academia excelente! Com um professor dedicado a formação e
+              evolução de seus alunos! Oss!
+            </p>
+            <div class="testimonial-footer">
+              <img
+                src="assets/images/icon/icon3.png"
+                class="testimonial-avatar"
+                loading="lazy"
+              />
+              <div class="testimonial-info">
+                <strong class="testimonial-name">Jhonatas Sousa </strong>
+                <span class="testimonial-meta">Avaliação 5 estrelas</span>
+              </div>
+              <div class="testimonial-achievement">
+                <i class="bx bx-star"></i>
+                <span>5 Estrelas</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal delay-400">
+            <span class="testimonial-quote">"</span>
+            <p class="testimonial-text">
+              Espaço top, bem espaçoso. Professores super
+              atenciosos(Especialmente Berg), galera da hora demais, fácil de se
+              adaptar.
+            </p>
+            <div class="testimonial-footer">
+              <img
+                src="assets/images/icon/icon4.png"
+                alt="Ana Paula Lima"
+                class="testimonial-avatar"
+                loading="lazy"
+              />
+              <div class="testimonial-info">
+                <strong class="testimonial-name">Thales Silva</strong>
+                <span class="testimonial-meta">Avaliação 5 estrelas</span>
+              </div>
+              <div class="testimonial-achievement">
+                <i class="bx bx-star"></i>
+                <span>5 Estrelas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         HORÁRIOS
+         ══════════════════════════════════════════ -->
+    <section class="plans-arena section-padding" id="horarios">
+      <div class="container text-center reveal">
+        <div class="manifesto-header reveal-blur">
+          <span class="section-eyebrow">ROX = Really On Excellence</span>
+          <h2 class="manifesto-headline">
+            Encontre seu melhor<br /><span class="text-red">horário.</span>
+          </h2>
+        </div>
+
+        <div class="schedule-container">
+          <!-- Tabela Desktop -->
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Horário</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>07:00</td>
+                <td>Jiu-Jitsu</td>
+                <td>Jiu-Jitsu</td>
+                <td>Jiu-Jitsu</td>
+                <td>Jiu-Jitsu</td>
+                <td>Jiu-Jitsu</td>
+              </tr>
+              <tr>
+                <td>14:00</td>
+                <td>Jiu-Jitsu</td>
+                <td>-</td>
+                <td>Jiu-Jitsu</td>
+                <td>-</td>
+                <td>Jiu-Jitsu</td>
+              </tr>
+              <tr>
+                <td>19:00</td>
+                <td>Kids</td>
+                <td>Defesa Pessoal</td>
+                <td>Kids</td>
+                <td>Defesa Pessoal</td>
+                <td>Kids</td>
+              </tr>
+              <tr>
+                <td>20:00</td>
+                <td>Jiu-Jitsu</td>
+                <td>Jiu-Jitsu</td>
+                <td>Jiu-Jitsu</td>
+                <td>Jiu-Jitsu</td>
+                <td>Jiu-Jitsu</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Cards Mobile -->
+          <div class="schedule-cards">
+            <div class="schedule-card">
+              <h3>Jiu-Jitsu</h3>
+              <ul>
+                <li><i class="bx bx-time"></i> Seg, Sex às 07:00</li>
+                <li><i class="bx bx-time"></i> Seg, Qua, Sex às 14:00</li>
+                <li><i class="bx bx-time"></i> Seg a Sex às 20:00</li>
+              </ul>
+            </div>
+            <div class="schedule-card">
+              <h3>Kids</h3>
+              <ul>
+                <li><i class="bx bx-time"></i> Seg, Qua, Sex às 19:00</li>
+              </ul>
+            </div>
+            <div class="schedule-card">
+              <h3>Defesa Pessoal</h3>
+              <ul>
+                <li><i class="bx bx-time"></i> Ter, Qui às 19:00</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         PLANOS 
+         ══════════════════════════════════════════ -->
+    <section class="plans-arena section-padding" id="planos">
+        <!-- Fundo texturizado -->
+        <div class="plans-arena-bg">
+            <div class="plans-noise"></div>
+            <div class="plans-orb plans-orb--left"></div>
+            <div class="plans-orb plans-orb--right"></div>
+        </div>
+
+        <div class="container">
+            <!-- Header Cinematográfico -->
+            <div class="plans-header reveal-blur">
+                <span class="section-eyebrow">Compromisso com sua Evolução</span>
+                <h2 class="plans-headline">
+                    Escolha seu <span class="text-red">Plano</span><br>de Combate
+                </h2>
+                <p class="plans-sub">Invista na sua transformação. Cada plano foi desenhado para acelerar sua evolução
+                    dentro e fora do tatame.</p>
+            </div>
+
+            <!-- Grid de Planos -->
+            <div class="plans-grid">
+
+                <!-- ── MENSAL ── -->
+                <div class="plan-card reveal-blur delay-100" data-plan="mensal" id="plan-mensal">
+                    <div class="plan-card__glow"></div>
+                    <div class="plan-card__accent"></div>
+                    <div class="plan-card__body">
+                        <span class="plan-card__eyebrow">Entrada</span>
+                        <h3 class="plan-card__title">Mensal</h3>
+                        <div class="plan-card__price">
+                            <span class="plan-card__price-label">Consulte valores</span>
+                        </div>
+                        <p class="plan-card__desc">Flexibilidade total. Comece sem amarras e descubra o poder do
+                            Jiu-Jitsu na sua rotina.</p>
+                        <ul class="plan-card__features">
+                            <li><i class='bx bx-check'></i> Acesso ilimitado a todos os treinos</li>
+                            <li><i class='bx bx-check'></i> Todas as turmas do seu nível</li>
+                            <li><i class='bx bx-check'></i> Sem taxa de cancelamento</li>
+                            <li><i class='bx bx-check'></i> Acompanhamento técnico</li>
+                        </ul>
+                        <a href="https://wa.me/5584994243772?text=Olá!%20Gostaria%20de%20saber%20os%20valores%20do%20plano%20mensal."
+                            target="_blank" class="plan-card__cta plan-card__cta--outline" id="cta-mensal">
+                            <i class='bx bxl-whatsapp'></i> Quero Começar
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ── ANUAL — PREMIUM / FEATURED ── -->
+                <div class="plan-card plan-card--featured reveal-blur delay-200" data-plan="anual" id="plan-anual">
+                    <div class="plan-card__glow plan-card__glow--intense"></div>
+                    <div class="plan-card__accent plan-card__accent--red"></div>
+                    <!-- <div class="plan-card__badge">Maior Economia</div> -->
+                    <div class="plan-card__body">
+                        <span class="plan-card__eyebrow">Premium</span>
+                        <h3 class="plan-card__title">Anual</h3>
+                        <div class="plan-card__price">
+                            <span class="plan-card__price-label">Melhor custo-benefício</span>
+                        </div>
+                        <div class="plan-card__bonus">
+                            <i class='bx bxs-gift'></i>
+                            <span><strong>Bônus:</strong> 1 Kimono Oficial Grátis</span>
+                        </div>
+                        <p class="plan-card__desc">O compromisso máximo com sua evolução. 12 meses de transformação com
+                            o melhor desconto e recompensa exclusiva.</p>
+                        <ul class="plan-card__features">
+                            <li><i class='bx bx-check'></i> Acesso ilimitado a todos os treinos</li>
+                            <li><i class='bx bx-check'></i> <strong>Kimono oficial ROX grátis</strong></li>
+                            <li><i class='bx bx-check'></i> Maior desconto na mensalidade</li>
+                            <li><i class='bx bx-check'></i> Prioridade em eventos e seminários</li>
+                            <li><i class='bx bx-check'></i> Acompanhamento técnico exclusivo</li>
+                        </ul>
+                        <a href="https://wa.me/5584994243772?text=Olá!%20Gostaria%20de%20saber%20os%20valores%20do%20plano%20anual%20com%20kimono."
+                            target="_blank" class="plan-card__cta plan-card__cta--primary" id="cta-anual">
+                            <i class='bx bxl-whatsapp'></i> Garantir Meu Kimono
+                        </a>
+                    </div>
+                    <img src="assets/images/plans/kimono.png" alt="Kimono Oficial Roxx BJJ" class="plan-card__image plan-card__image--kimono" loading="lazy">
+                </div>
+
+                <!-- ── SEMESTRAL ── -->
+                <div class="plan-card reveal-blur delay-300" data-plan="semestral" id="plan-semestral">
+                    <div class="plan-card__glow"></div>
+                    <div class="plan-card__accent"></div>
+                    <div class="plan-card__body">
+                        <span class="plan-card__eyebrow">Foco Total</span>
+                        <h3 class="plan-card__title">Semestral</h3>
+                        <div class="plan-card__price">
+                            <span class="plan-card__price-label">Economia garantida</span>
+                        </div>
+                        <div class="plan-card__bonus plan-card__bonus--secondary">
+                            <i class='bx bxs-t-shirt'></i>
+                            <span><strong>Bônus:</strong> 1 Rash Guard Oficial Grátis</span>
+                        </div>
+                        <p class="plan-card__desc">Seis meses de dedicação com desconto progressivo e equipamento
+                            exclusivo para representar a ROX.</p>
+                        <ul class="plan-card__features">
+                            <li><i class='bx bx-check'></i> Acesso ilimitado a todos os treinos</li>
+                            <li><i class='bx bx-check'></i> <strong>Rash Guard oficial ROX grátis</strong></li>
+                            <li><i class='bx bx-check'></i> Desconto na mensalidade</li>
+                            <li><i class='bx bx-check'></i> Acompanhamento técnico</li>
+                        </ul>
+                        <a href="https://wa.me/5584994243772?text=Olá!%20Gostaria%20de%20saber%20os%20valores%20do%20plano%20semestral%20com%20rash%20guard."
+                            target="_blank" class="plan-card__cta plan-card__cta--outline" id="cta-semestral">
+                            <i class='bx bxl-whatsapp'></i> Quero o Rash Guard
+                        </a>
+                    </div>
+                    <img src="assets/images/plans/rash.png" alt="Rash Guard Oficial Roxx BJJ" class="plan-card__image plan-card__image--rash" loading="lazy">
+                </div>
+            </div>
+
+            <!-- ── PROGRAMA DE INDICAÇÃO ── -->
+            <div class="referral-banner reveal-blur delay-400" id="programa-indicacao">
+                <div class="referral-banner__glow"></div>
+                <div class="referral-banner__content">
+                    <div class="referral-banner__icon">
+                        <i class='bx bx-gift'></i>
+                    </div>
+                    <div class="referral-banner__text">
+                        <h3 class="referral-banner__title">Indique e Ganhe</h3>
+                        <p class="referral-banner__desc">Traga um amigo para a ROX. Quando ele completar <strong>3
+                                meses treinando</strong>, você ganha <strong>1 mês grátis</strong>. Sem limite de
+                            indicações.</p>
+                    </div>
+                    <a href="https://wa.me/5584994243772?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20programa%20de%20indicação."
+                        target="_blank" class="referral-banner__cta" id="cta-indicacao">
+                        Indicar Agora <i class='bx bx-arrow-back bx-rotate-180'></i>
+                    </a>
+                </div>
+                <div class="referral-banner__steps">
+                    <div class="referral-step">
+                        <span class="referral-step__num">01</span>
+                        <span class="referral-step__text">Indique um amigo</span>
+                    </div>
+                    <div class="referral-step__arrow"><i class='bx bx-chevron-right'></i></div>
+                    <div class="referral-step">
+                        <span class="referral-step__num">02</span>
+                        <span class="referral-step__text">Ele treina por 3 meses</span>
+                    </div>
+                    <div class="referral-step__arrow"><i class='bx bx-chevron-right'></i></div>
+                    <div class="referral-step">
+                        <span class="referral-step__num">03</span>
+                        <span class="referral-step__text">Você ganha 1 mês grátis</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- ══════════════════════════════════════════
+         CONTATO — Formulário Premium + CTA
+         ══════════════════════════════════════════ -->
+    <section class="contact-section section-padding bg-darker" id="contato">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Coluna: info + detalhes -->
+          <div class="contact-info reveal">
+            <span class="section-eyebrow">Dê o Primeiro Passo</span>
+            <h2>
+              Comece sua Jornada<br />no <span class="text-red">jiu-jitsu</span>
+            </h2>
+            <p class="contact-desc">
+              Não espere o momento perfeito. Comece agora, evolua sempre. Nossa
+              equipe está pronta para receber você no tatame.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <i class="bx bxl-whatsapp"></i>
+                <div>
+                  <span class="contact-detail-label">WhatsApp</span>
+                  <a
+                    href="https://wa.me/5584994243772"
+                    target="_blank"
+                    class="contact-detail-value"
+                    >(84) 99424-3772</a
+                  >
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <i class="bx bxl-instagram"></i>
+                <div>
+                  <span class="contact-detail-label">Instagram</span>
+                  <a
+                    href="https://www.instagram.com/roxbjj_planalto/"
+                    target="_blank"
+                    class="contact-detail-value"
+                    >@roxbjj_planalto</a
+                  >
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <i class="bx bxs-map"></i>
+                <div>
+                  <span class="contact-detail-label">Endereço</span>
+                  <span class="contact-detail-value"
+                    >Rua Jardim do Éden, 665 — Planalto, Natal/RN</span
+                  >
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <i class="bx bx-time-five"></i>
+                <div>
+                  <span class="contact-detail-label"
+                    >Horário de Funcionamento</span
+                  >
+                  <span class="contact-detail-value"
+                    >Seg–Sex: 07:00 às 21:00</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna: formulário -->
+          <div class="contact-form-wrapper reveal delay-200">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="contactName" class="form-label"
+                  >Nome Completo</label
+                >
+                <input
+                  type="text"
+                  id="contactName"
+                  name="name"
+                  class="form-input"
+                  placeholder="Seu nome"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="contactPhone" class="form-label"
+                  >WhatsApp / Telefone</label
+                >
+                <input
+                  type="tel"
+                  id="contactPhone"
+                  name="phone"
+                  class="form-input"
+                  placeholder="(84) 99999-9999"
+                  required
+                  autocomplete="tel"
+                />
+              </div>
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Mensagem</label>
+                <textarea
+                  id="contactMessage"
+                  name="message"
+                  class="form-input form-textarea"
+                  placeholder="Olá! Gostaria de saber mais sobre..."
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary btn-block btn-form-submit"
+              >
+                <i class="bx bxl-whatsapp"></i> Enviar pelo WhatsApp
+              </button>
+              <p class="form-disclaimer">
+                Ao enviar, você será redirecionado para o WhatsApp.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         FAQ 
+         ══════════════════════════════════════════ -->
+    <section class="faq section-padding bg-darker" id="faq">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Tire suas Dúvidas</span>
+          <h2>Perguntas Frequentes</h2>
+          <p class="subtitle">
+            Tudo que você precisa saber antes de começar sua jornada no
+            Jiu-Jitsu.
+          </p>
+        </div>
+
+        <div class="faq-list reveal delay-100">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Quais são os horários das aulas?</span>
+              <i class="bx bx-plus faq-icon"></i>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-content">
+                <p>
+                  Oferecemos turmas em horários variados para se adaptar à sua
+                  rotina: às 07:00 (Seg a Sex), 14:00 (Segunda, Quarta e Sexta),
+                  19:00 (Kids/Defesa Pessoal — Segunda, Quarta e Sexta) e 20:00
+                  (Segunda a Sexta). Consulte a grade completa na seção de
+                  Horários.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Qual a faixa etária para treinar?</span>
+              <i class="bx bx-plus faq-icon"></i>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-content">
+                <p>
+                  Atendemos todas as idades! Para crianças, temos turmas Kids
+                  dos 5 aos 14 anos. Para adultos, não há limite máximo de
+                  idade. O Jiu-Jitsu é para todos e nossas turmas são
+                  organizadas por faixa etária e nível técnico.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Como funciona a aula experimental?</span>
+              <i class="bx bx-plus faq-icon"></i>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-content">
+                <p>
+                  A aula experimental é 100% gratuita e sem compromisso. Basta
+                  entrar em contato pelo WhatsApp para agendar o melhor dia e
+                  horário. Venha com roupa confortável — não é necessário kimono
+                  para a primeira aula. Você participará do treino completo
+                  junto com nossa equipe.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Quais planos estão disponíveis?</span>
+              <i class="bx bx-plus faq-icon"></i>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-content">
+                <p>
+                  Trabalhamos com planos Mensal, Anual e semestral, além da Aula
+                  Experimental gratuita. Os valores são diferenciados para
+                  oferecer a melhor relação custo-benefício. Entre em contato
+                  pelo WhatsApp para consultar os valores atualizados e
+                  encontrar o plano ideal para você.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Onde fica localizada a academia?</span>
+              <i class="bx bx-plus faq-icon"></i>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-content">
+                <p>
+                  Estamos localizados na Rua Jardim do Éden, 665 — Bairro
+                  Planalto, Natal/RN. Nossa estrutura conta com tatame
+                  profissional, vestiários completos e fácil acesso na região.
+                  Veja o mapa completo na seção de Localização.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Preciso ter experiência para começar?</span>
+              <i class="bx bx-plus faq-icon"></i>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-content">
+                <p>
+                  Absolutamente não! A ROX BJJ Planalto recebe iniciantes com
+                  muito entusiasmo. Nosso método de ensino começa do zero, com
+                  fundamentos sólidos que garantem sua segurança e evolução
+                  rápida. Muitos dos nossos melhores atletas começaram sem
+                  nenhuma experiência.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         LOCALIZAÇÃO
+         ══════════════════════════════════════════ -->
+    <section
+      class="testemonial-card section-padding bg-darker reveal delay-400"
+      id="localizacao"
+    >
+      <div class="container text-center reveal">
+        <h2>Visite-nos: <span class="history-red">ROXBJJ planalto</span></h2>
+        <p class="mb-lg">
+          <i class="bx bx-map pin-icon"></i> Bairro Planalto, Natal - RN
+        </p>
+
+        <div class="map-container shadow-red">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.0083849331513!2d-35.251874300000004!3d-5.854440299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b255ab34457199%3A0x92cee011938fd574!2sROXBJJ%20PLANALTO!5e0!3m2!1spt-BR!2sbr!4v1776442899865!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização ROX BJJ Planalto"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         FOOTER PREMIUM
+         ══════════════════════════════════════════ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <!-- Marca + redes sociais -->
+          <div class="footer-left">
+            <div class="footer-brand">
+              <img
+                src="assets/images/logo/logo.jpg"
+                alt="ROX BJJ Planalto"
+                class="footer-logo-img"
+              />
+            </div>
+            <p class="footer-tagline">
+              disciplina. evolução. alta performance.
+            </p>
+            <div class="footer-social">
+              <a
+                href="https://www.instagram.com/roxbjj_planalto/"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                <i class="bx bxl-instagram"></i>
+                <span>@roxbjj_planalto</span>
+              </a>
+              <a
+                href="https://www.tiktok.com/@roxbjjplanalto"
+                target="_blank"
+                aria-label="TikTok"
+              >
+                <i class="bx bxl-tiktok"></i>
+                <span>@roxbjjplanalto</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Divisor vertical -->
+          <div class="footer-divider"></div>
+
+          <!-- Navegação rápida -->
+          <div class="footer-nav-col">
+            <p class="footer-nav-title">Navegação</p>
+            <ul class="footer-nav-links">
+              <li><a href="#home">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#horarios">Horários</a></li>
+              <li><a href="#planos">Planos</a></li>
+              <li><a href="#depoimentos">Depoimentos</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+
+          <!-- Divisor vertical -->
+          <div class="footer-divider"></div>
+
+          <!-- Contato -->
+          <div class="footer-right">
+            <p class="footer-label">contato &amp; localização</p>
+            <ul class="footer-info">
+              <li>
+                <i class="bx bxs-map"></i>
+                <span>rua jardim do éden, 665<br />planalto, natal — rn</span>
+              </li>
+              <li>
+                <i class="bx bxl-whatsapp"></i>
+                <a href="https://wa.me/5584994243772" target="_blank"
+                  >(84) 99424-3772</a
+                >
+              </li>
+              <li>
+                <i class="bx bx-envelope"></i>
+                <a href="mailto:atendimento@roxbjjplanalto.com.br"
+                  >atendimento@roxbjjplanalto.com.br</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 rox bjj planalto. todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Botão Fixo do WhatsApp -->
+    <a
+      href="https://wa.me/5584994243772?text=Olá!%20Quero%20agendar%20minha%20aula%20experimental."
+      target="_blank"
+      class="whatsapp-float pulse-anim"
+      aria-label="Falar no WhatsApp"
+    >
+      <i class="bx bxl-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="assets/script/script.js"></script>
+  </body>
+</html>
