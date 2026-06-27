@@ -70,3 +70,4 @@ Regras lógicas criadas progressivamente de fora para dentro (Desktop-first):
 Basta clicar duas vezes em `index.html` caso queira ver primariamente e rápido ou usar via `Live Server` em seu editor/IDE. Se python estiver ativo no Terminal: `python3 -m http.server 8000` na pasta. O projeto é de base modular zero-dependency.
 
 
+# siteROX
