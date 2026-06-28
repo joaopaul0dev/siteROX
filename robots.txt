@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joaopaul0dev.github.io/siteROX/sitemap.xml
