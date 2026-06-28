@@ -18,11 +18,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://unpkg.com" />
 
-    <!-- SCHEMA.ORG da academia -->
+    <!-- SCHEMA.ORG -->
 
     <script type="application/ld+json">
-      [
         {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quais são os horários das aulas?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Seg a Sex, 07:00–21:00, com turmas à tarde/noite."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Como funciona a aula experimental?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Gratuita e sem compromisso. Agende pelo WhatsApp."
+              }
+            }
+          ]
+        }
+    </script>
+
+    <script type="application/ld+json">
+      {
           "@context": "https://schema.org",
           "@type": "SportsActivityLocation",
           "name": "ROX BJJ Planalto",
@@ -62,34 +86,12 @@
           },
           "geo":{
             "@type":"GeoCoordinates",
-            "latitude":...,
-            "longitude":...
+            "latitude": -5.845,
+            "longitude": -35.263
           }
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Quais são os horários das aulas?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Seg a Sex, 07:00–21:00, com turmas à tarde/noite."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Como funciona a aula experimental?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Gratuita e sem compromisso. Agende pelo WhatsApp."
-              }
-            }
-          ]
         }
-      ]
     </script>
+
     <!-- OPEN GRAPH -->
     <meta property="og:site_name" content="Roxx BJJ Planalto" />
     <meta property="og:locale" content="pt_BR" />
