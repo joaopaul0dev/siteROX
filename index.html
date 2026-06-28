@@ -7,16 +7,17 @@
       name="description"
       content="Roxx BJJ Planalto é uma academia de Jiu-Jitsu em Natal/RN com aulas para crianças, adultos e competidores. Agende sua aula experimental."
     />
+    <meta name="theme-color" content="#090909" />
     <meta name="author" content="João Paulo" />
-    <meta name="robots" content="index,follow">
+    <meta name="robots" content="index,follow" />
     <title>ROXBJJ Planalto | Academia de Jiu-Jitsu em Natal/RN</title>
-    
-    <!-- PRECONNECT   -->
 
+    <!-- PRECONNECT   -->
+    <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://unpkg.com" />
-    
+
     <!-- SCHEMA.ORG da academia -->
 
     <script type="application/ld+json">
@@ -50,13 +51,19 @@
             "closes": "21:00"
           },
           "sameAs": [
-            "https://instagram.com/roxbjj_planalto",
-            "https://www.tiktok.com/@roxbjjplanalto"
+            "https://instagram.com/roxbjj_planalto/",
+            "https://www.tiktok.com/@roxbjjplanalto/",
+            "https://wa.me/5584994243772"
           ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
             "reviewCount": "76"
+          },
+          "geo":{
+            "@type":"GeoCoordinates",
+            "latitude":...,
+            "longitude":...
           }
         },
         {
@@ -83,13 +90,17 @@
         }
       ]
     </script>
-
+    <!-- OPEN GRAPH -->
+    <meta property="og:site_name" content="Roxx BJJ Planalto" />
+    <meta property="og:locale" content="pt_BR" />
     <!-- 1. ÍCONE DA ABA DO NAVEGADOR (FAVICON) -->
     <link
       rel="shortcut icon"
       href="https://joaopaul0dev.github.io/siteROX/assets/images/logo/logo.jpg"
       type="image/jpeg"
     />
+
+    <link rel="apple-touch-icon" href="assets/images/logo/logo.jpg" />
 
     <!-- 2. META TAGS DE COMPARTILHAMENTO (OPEN GRAPH) -->
     <meta property="og:type" content="website" />
@@ -125,6 +136,7 @@
       name="twitter:description"
       content="Academia de Jiu-Jitsu em Natal/RN. Agende sua aula experimental."
     />
+    <meta name="twitter:site" content="@roxbjj_planalto" />
     <meta
       name="twitter:image"
       content="https://joaopaul0dev.github.io/siteROX/assets/images/og-image.png"
