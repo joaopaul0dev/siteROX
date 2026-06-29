@@ -8,114 +8,122 @@
       content="Roxx BJJ Planalto é uma academia de Jiu-Jitsu em Natal/RN com aulas para crianças, adultos e competidores. Agende sua aula experimental."
     />
     <meta name="theme-color" content="#090909" />
-    <meta name="author" content="github:Joaopaul0dev"/>
+    <meta name="author" content="github:Joaopaul0dev" />
     <meta name="robots" content="index,follow" />
-    <link rel="icon" href="/assets/images/logo/logo.jpg" type="image/jpeg">
+
     <title>ROXBJJ Planalto | Academia de Jiu-Jitsu em Natal/RN</title>
+    <link rel="icon" href="assets/images/logo/logo.jpg" type="image/jpeg" />
+    <link rel="canonical" href="https://joaopaul0dev.github.io/siteROX/" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo/logo.jpg"
+      type="image/jpeg"
+    />
+    <link rel="apple-touch-icon" href="assets/images/logo/logo.jpg" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <!-- WEB fonts / Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- PRECONNECT   -->
-    <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://unpkg.com" />
+    <link
+      rel="preload"
+      href="assets/images/HEROturmaBJJ.jpg"
+      as="image"
+      fetchpriority="high"
+    />
 
     <!-- SCHEMA.ORG -->
-
-    <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Quais são os horários das aulas?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Seg a Sex, 07:00–21:00, com turmas à tarde/noite."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Como funciona a aula experimental?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Gratuita e sem compromisso. Agende pelo WhatsApp."
-              }
-            }
-          ]
-        }
-    </script>
+    <!-- FAQPage -->
 
     <script type="application/ld+json">
       {
-          "@context": "https://schema.org",
-          "@type": "SportsActivityLocation",
-          "name": "ROX BJJ Planalto",
-          "description": "CT da ROXBJJ Planalto — ambiente amplo, tatame profissional, infraestrutura de ponta e clima totalmente familiar.",
-          "url": "https://joaopaul0dev.github.io/siteROX/",
-          "telephone": "+55-84-99424-3772",
-          "email": "atendimento@roxbjjplanalto.com.br",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Rua Jardim do Éden, 665",
-            "addressLocality": "Natal",
-            "addressRegion": "RN",
-            "postalCode": "59073-120",
-            "addressCountry": "BR"
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Quais são os horários das aulas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Seg a Sex, 07:00–21:00, com turmas à tarde/noite."
+            }
           },
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "07:00",
-            "closes": "21:00"
-          },
-          "sameAs": [
-            "https://instagram.com/roxbjj_planalto/",
-            "https://www.tiktok.com/@roxbjjplanalto/",
-            "https://wa.me/5584994243772"
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "76"
-          },
-          "geo":{
-            "@type":"GeoCoordinates",
-            "latitude": -5.845,
-            "longitude": -35.263
+          {
+            "@type": "Question",
+            "name": "Como funciona a aula experimental?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gratuita e sem compromisso. Agende pelo WhatsApp."
+            }
           }
+        ]
+      }
+    </script>
+
+    <!-- SportsActivityLocation -->
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SportsActivityLocation",
+        "name": "ROX BJJ Planalto",
+        "description": "CT da ROXBJJ Planalto — ambiente amplo, tatame profissional, infraestrutura de ponta e clima totalmente familiar.",
+        "url": "https://joaopaul0dev.github.io/siteROX/",
+        "telephone": "+55-84-99424-3772",
+        "email": "atendimento@roxbjjplanalto.com.br",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua Jardim do Éden, 665",
+          "addressLocality": "Natal",
+          "addressRegion": "RN",
+          "postalCode": "59073-120",
+          "addressCountry": "BR"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "07:00",
+          "closes": "21:00"
+        },
+        "sameAs": [
+          "https://instagram.com/roxbjj_planalto/",
+          "https://www.tiktok.com/@roxbjjplanalto/",
+          "https://wa.me/5584994243772"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "76"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -5.845,
+          "longitude": -35.263
         }
+      }
     </script>
 
     <!-- OPEN GRAPH -->
     <meta property="og:site_name" content="Rox BJJ Planalto" />
     <meta property="og:locale" content="pt_BR" />
-    <meta property="og:site_name" content="ROXBJJ Planalto">
-    <!-- 1. ÍCONE DA ABA DO NAVEGADOR (FAVICON) -->
-    <link
-      rel="shortcut icon"
-      href="https://joaopaul0dev.github.io/siteROX/assets/images/logo/logo.jpg"
-      type="image/jpeg"
-    />
-
-    <link rel="apple-touch-icon" href="assets/images/logo/logo.jpg" />
-
-    <!-- 2. META TAGS DE COMPARTILHAMENTO (OPEN GRAPH) -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Roxx BJJ Planalto" />
+    <meta property="og:title" content="ROX BJJ Planalto" />
     <meta
       property="og:description"
       content="Academia de Jiu-Jitsu em Natal/RN. Agende sua aula experimental."
     />
     <meta property="og:url" content="https://joaopaul0dev.github.io/siteROX/" />
-
-    <!-- Link da imagem em PNG -->
     <meta
       property="og:image"
       content="https://joaopaul0dev.github.io/siteROX/assets/images/og-image.png"
@@ -126,16 +134,13 @@
     />
     <meta
       property="og:image:alt"
-      content="Roxx BJJ Planalto - Academia de Jiu-Jitsu no Planalto"
+      content="ROX BJJ Planalto - Academia de Jiu-Jitsu no Planalto"
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <!-- CORREÇÃO AQUI: Alterado para image/png -->
     <meta property="og:image:type" content="image/png" />
-
-    <!-- 3. METADADOS PARA O X (TWITTER) -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Roxx BJJ Planalto" />
+    <meta name="twitter:title" content="ROX BJJ Planalto" />
     <meta
       name="twitter:description"
       content="Academia de Jiu-Jitsu em Natal/RN. Agende sua aula experimental."
@@ -146,17 +151,7 @@
       content="https://joaopaul0dev.github.io/siteROX/assets/images/og-image.png"
     />
 
-    <link rel="canonical" href="https://joaopaul0dev.github.io/siteROX/" />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/style/style.css" />
     <link rel="stylesheet" href="assets/style/premium.css" />
     <link rel="stylesheet" href="assets/style/cinematic.css" />
@@ -169,7 +164,7 @@
       <div class="container nav-content">
         <div class="logo">
           <img
-            src="assets/images/logo/logoSemFundo.png"
+            src="assets/images/logo/logoBranco.png"
             alt="ROX BJJ Planalto"
             class="nav-logo-img"
           />
@@ -776,7 +771,7 @@
         <div class="plans-header reveal-blur">
           <span class="section-eyebrow">Compromisso com sua Evolução</span>
           <h2 class="plans-headline">
-            opções de<span class="text-red"> planos</span><br/>
+            opções de<span class="text-red"> planos</span><br />
           </h2>
           <p class="plans-sub">
             Invista na sua transformação. Cada plano foi desenhado para acelerar
@@ -801,8 +796,8 @@
                 <span class="plan-card__price-label">Consulte valores</span>
               </div>
               <p class="plan-card__desc">
-                Flexibilidade total. Comece na academia e descubra o 
-                Jiu-Jitsu na sua rotina.
+                Flexibilidade total. Comece na academia e descubra o Jiu-Jitsu
+                na sua rotina.
               </p>
               <ul class="plan-card__features">
                 <li>
@@ -848,8 +843,8 @@
                 <span><strong>Bônus:</strong> 1 Kimono Grátis</span>
               </div>
               <p class="plan-card__desc">
-                O compromisso com sua evolução. 12 meses com
-                 desconto e recompensa exclusiva no plano.
+                O compromisso com sua evolução. 12 meses com desconto e
+                recompensa exclusiva no plano.
               </p>
               <ul class="plan-card__features">
                 <li>
@@ -866,7 +861,6 @@
                 <li>
                   <i class="bx bx-check"></i> Prioridade em eventos e seminários
                 </li>
-                
               </ul>
               <a
                 href="https://wa.me/5584994243772?text=Olá!%20Gostaria%20de%20saber%20os%20valores%20do%20plano%20anual%20com%20kimono."
@@ -879,7 +873,7 @@
             </div>
             <img
               src="assets/images/plans/kimono.png"
-              alt="Kimono Roxx BJJ"
+              alt="Kimono ROX BJJ"
               class="plan-card__image plan-card__image--kimono"
               loading="lazy"
             />
@@ -904,7 +898,7 @@
                 <span><strong>Bônus:</strong> 1 Rash Guard Grátis</span>
               </div>
               <p class="plan-card__desc">
-                Seis meses de dedicação com desconto progressivo e recompensa 
+                Seis meses de dedicação com desconto progressivo e recompensa
                 pra representar a academia.
               </p>
               <ul class="plan-card__features">
@@ -930,7 +924,7 @@
             </div>
             <img
               src="assets/images/plans/rash.png"
-              alt="Rash Guard Roxx BJJ"
+              alt="Rash Guard ROX BJJ"
               class="plan-card__image plan-card__image--rash"
               loading="lazy"
             />
@@ -998,11 +992,13 @@
           <div class="contact-info reveal">
             <span class="section-eyebrow">Dê o Primeiro Passo</span>
             <h2>
-              Comecar sua Jornada<br />no <span class="text-red">jiu-jitsu</span> é facil
+              Comecar sua Jornada<br />no
+              <span class="text-red">jiu-jitsu</span> é facil
             </h2>
             <p class="contact-desc">
-              Venha conhecer qoue fazemos e descobrir o estilo de treinamento da ROXBJJ planalto. 
-              Agende sua aula experimental ao lado e vamos começar.
+              Venha conhecer qoue fazemos e descobrir o estilo de treinamento da
+              ROXBJJ planalto. Agende sua aula experimental ao lado e vamos
+              começar.
             </p>
 
             <div class="contact-details">
@@ -1272,7 +1268,7 @@
           <div class="footer-left">
             <div class="footer-brand">
               <img
-                src="assets/images/logo/logo.jpg"
+                src="assets/images/logo/logoBranco.png"
                 alt="ROX BJJ Planalto"
                 class="footer-logo-img"
               />
@@ -1361,6 +1357,6 @@
     </a>
 
     <!-- Scripts -->
-    <script src="assets/script/script.js"></script>
+    <script src="assets/style/script/script.js"></script>
   </body>
 </html>
